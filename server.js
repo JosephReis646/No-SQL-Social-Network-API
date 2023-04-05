@@ -15,8 +15,6 @@ app.use('/api/thoughts', thoughtRoutes);
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/social-network', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
-  useCreateIndex: true,
-  useFindAndModify: false,
 });
 
 app.listen(PORT, () => {
