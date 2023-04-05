@@ -63,4 +63,9 @@ This project is licensed under the MIT License.
 https://github.com/JosephReis646/No-SQL-Social-Network-API
 
 ## Walkthrough Demo Video
+Do to a programming issue in the first walkthough, I needed to record a follow up video with the reaction functionality working correctly, as before it was sending a 500 error. 
+
+https://drive.google.com/file/d/1y_0V-W5WNGrWCyMAumm-KjIBrmCmhw6w/view
+
+https://drive.google.com/file/d/1_q67YNY-1pyRKzl48hjiSc5uGnLXTmIh/view
 
