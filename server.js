@@ -2,6 +2,9 @@ const express = require('express');
 const mongoose = require('mongoose');
 const userRoutes = require('./routes/user-routes');
 const thoughtRoutes = require('./routes/thought-routes');
+require('dotenv').config();
+console.log(`MongoDB URI: ${process.env.MONGODB_URI}`);
+
 
 const app = express();
 const PORT = process.env.PORT || 3001;
